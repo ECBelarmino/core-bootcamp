@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: UNLICENSED
+//SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.9;
 import "hardhat/console.sol";
 
@@ -12,15 +12,15 @@ contract SolidityModifiers {
     }
 
     modifier isAdmin() {
-        // require(msg.sender == admin, "You are not allowed!");
-        // _;
+        require(msg.sender == admin, "You are not allowed!");
+        _;
     }
 
     function addBalance(uint256 toAddBalance) public isAdmin {
-        // balance += toAddBalance;
+        balance += toAddBalance;
     }
 
     function getBalance() public view returns (uint256) {
-        // return balance;
+        return balance;
     }
 }
