@@ -1,0 +1,12 @@
+{
+    "name": "Hammerhead",
+    "description": "Hammerhead sharks are beautiful.",
+    "symbol": "HH",
+    "image": "https://i.imgur.com/397UwpG.jpeg",
+    "attributes": [
+        {
+            "trait_type": "Shark",
+            "value": "Saltwater"
+        }
+    ]
+}
