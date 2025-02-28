@@ -55,3 +55,4 @@ Here are some VS Code Extensions that could help you have a better development e
 For change request, please clone and submit pull-request. Or e-mail at mark@theblokc.com
 
 ERC20 =  0xE5e7583205a24C1700cc38C78b396D51d9420173
+ERC721 = 0xfe9F02F4447CA939275980b22cB427CC0B03d046

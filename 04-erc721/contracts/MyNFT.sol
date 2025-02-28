@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Burnable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract MyNFT is ERC721URIStorage {
+contract HamHead is ERC721URIStorage {
     uint256 tokenId;
 
     constructor() ERC721("Hammerhead", "HH") {}
@@ -15,7 +15,7 @@ contract MyNFT is ERC721URIStorage {
          _safeMint(msg.sender, tokenId);
          _setTokenURI(
              tokenId,
-             "https://path/to/metadata-uri"
+             "https://raw.githubusercontent.com/ECBelarmino/core-bootcamp/refs/heads/main/04-erc721/metadata.json"
          );
          tokenId++;
     }
